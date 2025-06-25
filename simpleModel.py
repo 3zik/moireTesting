@@ -1,10 +1,7 @@
-"""import pybinding as pb
+import pybinding as pb
 from pybinding.repository import graphene
-"""
 
-print("Hello World")
 
-"""
 # Example: build twisted bilayer graphene
 model = pb.Model(
     graphene.bilayer(),
@@ -13,4 +10,3 @@ model = pb.Model(
 )
 model.plot()
 
-"""
